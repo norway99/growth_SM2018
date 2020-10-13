@@ -122,10 +122,11 @@ target_link_libraries(shell triangle)
 target_link_libraries(libshell triangle)
 
 # VTK (OPTIONAL BUT STRONGLY RECOMMENDED FOR IO)
+
 find_package(VTK)
 if(VTK_FOUND)
-    message("Found vtk in: ${VTK_INCLUDE_DIRS}")
-    include(${VTK_USE_FILE})
+    message("Found vtk!!!") #in: ${VTK_INCLUDE_DIRS}")
+    #include(${VTK_USE_FILE})
     set(CMAKE_CXX_FLAGS    "${CMAKE_CXX_FLAGS} -DUSEVTK -DVTK_EXCLUDE_STRSTREAM_HEADERS")
     target_link_libraries(shell ${VTK_LIBRARIES})
     target_link_libraries(libshell ${VTK_LIBRARIES})

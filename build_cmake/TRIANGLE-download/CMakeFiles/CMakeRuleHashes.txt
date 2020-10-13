@@ -1,0 +1,11 @@
+# Hashes of file build rules.
+ac9836641b287af61036a4348635ab22 CMakeFiles/TRIANGLE-download
+739cf6e80cf348f19d4764fb4f9594ce CMakeFiles/TRIANGLE-download-complete
+a5209fd6646ddaf67ef1ee8523b4f737 TRIANGLE-download-prefix/src/TRIANGLE-download-stamp/TRIANGLE-download-build
+0fc46eb37ee6355c1e9c7f757f60c7e9 TRIANGLE-download-prefix/src/TRIANGLE-download-stamp/TRIANGLE-download-configure
+080aad078f8f7c37b199e07bec7dfd2e TRIANGLE-download-prefix/src/TRIANGLE-download-stamp/TRIANGLE-download-download
+46cbfe799c20bf1ebf8cc862ce290822 TRIANGLE-download-prefix/src/TRIANGLE-download-stamp/TRIANGLE-download-install
+a6b85da5cc0aade1fa0991ea1ebc64f3 TRIANGLE-download-prefix/src/TRIANGLE-download-stamp/TRIANGLE-download-mkdir
+d05b837ecc3e9d9330f15499cd71a49e TRIANGLE-download-prefix/src/TRIANGLE-download-stamp/TRIANGLE-download-patch
+d2cfc5ae254edec9629b844d219bd25c TRIANGLE-download-prefix/src/TRIANGLE-download-stamp/TRIANGLE-download-skip-update
+5381e257beb0e80fa6cbf804e4eb3390 TRIANGLE-download-prefix/src/TRIANGLE-download-stamp/TRIANGLE-download-test

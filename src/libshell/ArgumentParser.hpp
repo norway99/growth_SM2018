@@ -25,8 +25,7 @@ inline T convertStrToType( const std::string & s )
     T value;
     if(convert >> value)
         return value;
-    else
-    {
+    else{
         std::cout << "argument value for type is invalid : \t " << s << std::endl;
         std::exit(1);
     }

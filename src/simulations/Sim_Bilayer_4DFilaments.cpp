@@ -331,8 +331,8 @@ void Sim_Bilayer_4DFilaments::run_sombrero_printpath()
     const Real sigma = parser.parse<Real>("-sigma", sigma_prefac*max_filament_spacing);// use sigma = 2 * distance
     const Real dpath = parser.parse<Real>("-dpath", 0.5);
     
-    const std::string filename_bot = parser.parse<std::string>("-fname_bot", "/Users/wvanrees/Documents/project_2/plates/4D_printing/path2rho/sombrero_vec_1.dat");
-    const std::string filename_top = parser.parse<std::string>("-fname_top", "/Users/wvanrees/Documents/project_2/plates/4D_printing/path2rho/sombrero_vec_2.dat");
+    const std::string filename_bot = parser.parse<std::string>("-fname_bot", "/home/aparnank/mvlab/growth_SM2018/printpaths/sombrero_vec_1.dat");
+    const std::string filename_top = parser.parse<std::string>("-fname_top",  "/home/aparnank/mvlab/growth_SM2018/printpaths/sombrero_vec_2.dat");
     
     DensityInputs densityInputs(filename_bot, filename_top, sigma, filament_thickness, dpath);
     

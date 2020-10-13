@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/home/aparnank/mvlab/growth_SM2018/build_cmake/TRIANGLE-download/CMakeFiles/TRIANGLE-download"
+		},
+		{
+			"file" : "/home/aparnank/mvlab/growth_SM2018/build_cmake/TRIANGLE-download/CMakeFiles/TRIANGLE-download.rule"
+		},
+		{
+			"file" : "/home/aparnank/mvlab/growth_SM2018/build_cmake/TRIANGLE-download/CMakeFiles/TRIANGLE-download-complete.rule"
+		},
+		{
+			"file" : "/home/aparnank/mvlab/growth_SM2018/build_cmake/TRIANGLE-download/TRIANGLE-download-prefix/src/TRIANGLE-download-stamp/TRIANGLE-download-install.rule"
+		},
+		{
+			"file" : "/home/aparnank/mvlab/growth_SM2018/build_cmake/TRIANGLE-download/TRIANGLE-download-prefix/src/TRIANGLE-download-stamp/TRIANGLE-download-mkdir.rule"
+		},
+		{
+			"file" : "/home/aparnank/mvlab/growth_SM2018/build_cmake/TRIANGLE-download/TRIANGLE-download-prefix/src/TRIANGLE-download-stamp/TRIANGLE-download-download.rule"
+		},
+		{
+			"file" : "/home/aparnank/mvlab/growth_SM2018/build_cmake/TRIANGLE-download/TRIANGLE-download-prefix/src/TRIANGLE-download-stamp/TRIANGLE-download-patch.rule"
+		},
+		{
+			"file" : "/home/aparnank/mvlab/growth_SM2018/build_cmake/TRIANGLE-download/TRIANGLE-download-prefix/src/TRIANGLE-download-stamp/TRIANGLE-download-configure.rule"
+		},
+		{
+			"file" : "/home/aparnank/mvlab/growth_SM2018/build_cmake/TRIANGLE-download/TRIANGLE-download-prefix/src/TRIANGLE-download-stamp/TRIANGLE-download-build.rule"
+		},
+		{
+			"file" : "/home/aparnank/mvlab/growth_SM2018/build_cmake/TRIANGLE-download/TRIANGLE-download-prefix/src/TRIANGLE-download-stamp/TRIANGLE-download-test.rule"
+		},
+		{
+			"file" : "/home/aparnank/mvlab/growth_SM2018/build_cmake/TRIANGLE-download/TRIANGLE-download-prefix/src/TRIANGLE-download-stamp/TRIANGLE-download-skip-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"TRIANGLE-download"
+		],
+		"name" : "TRIANGLE-download"
+	}
+}

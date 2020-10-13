@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/aparnank/mvlab/growth_SM2018/build_cmake/TRIANGLE-src/triangle.c
+stdio.h
+-
+stdlib.h
+-
+string.h
+-
+math.h
+-
+sys/time.h
+-
+float.h
+-
+fpu_control.h
+-
+triangle.h
+/home/aparnank/mvlab/growth_SM2018/build_cmake/TRIANGLE-src/triangle.h
+
+/home/aparnank/mvlab/growth_SM2018/build_cmake/TRIANGLE-src/triangle.h
+
