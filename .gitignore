@@ -14,8 +14,9 @@ project.xcworkspace/
 xcuserdata/
 
 
-# Ignore any executables
+# Ignore any executables and other unnecessary dirs
 bin/*
+test/
 
 # Ignore data files
 *.dat
@@ -28,3 +29,4 @@ bin/*
 
 # Appcode shit
 .idea/*
+
