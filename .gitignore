@@ -1,5 +1,5 @@
 # Ignore the build, lib and doc dirs
-build
+build_cmake
 build_hlbfgs
 lib/*
 doc
