@@ -1,1 +1,0 @@
-/usr/bin/gcc -fPIC -O3 -DNDEBUG  -shared -Wl,-soname,libtriangle.so -o ../lib/libtriangle.so CMakeFiles/triangle.dir/TRIANGLE-src/triangle.c.o 
