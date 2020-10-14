@@ -3,6 +3,7 @@ build
 build_hlbfgs
 lib/*
 doc
+test
 
 # Ignore the Xcode stuff
 *.pbxuser
@@ -16,7 +17,6 @@ xcuserdata/
 
 # Ignore any executables and other unnecessary dirs
 bin/*
-test/
 
 # Ignore data files
 *.dat
