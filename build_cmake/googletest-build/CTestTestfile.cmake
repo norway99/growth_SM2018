@@ -1,6 +1,6 @@
 # CMake generated Testfile for 
-# Source directory: /home/aparnank/mvlab/growth_SM2018/build_cmake/googletest-src
-# Build directory: /home/aparnank/mvlab/growth_SM2018/build_cmake/googletest-build
+# Source directory: /home/aparnank/mvlab/growth_SM2018_forked/build_cmake/googletest-src
+# Build directory: /home/aparnank/mvlab/growth_SM2018_forked/build_cmake/googletest-build
 # 
 # This file includes the relevant testing commands required for 
 # testing this directory and lists subdirectories to be tested as well.

@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/aparnank/mvlab/growth_SM2018
+CMAKE_SOURCE_DIR = /home/aparnank/mvlab/growth_SM2018_forked
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/aparnank/mvlab/growth_SM2018/build_cmake
+CMAKE_BINARY_DIR = /home/aparnank/mvlab/growth_SM2018_forked/build_cmake
 
 # Include any dependencies generated for this target.
 include CMakeFiles/testshell.dir/depend.make
@@ -59,16 +59,16 @@ include CMakeFiles/testshell.dir/flags.make
 
 CMakeFiles/testshell.dir/test/testshell/Test_BasicGradients.cpp.o: CMakeFiles/testshell.dir/flags.make
 CMakeFiles/testshell.dir/test/testshell/Test_BasicGradients.cpp.o: ../test/testshell/Test_BasicGradients.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/aparnank/mvlab/growth_SM2018/build_cmake/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/testshell.dir/test/testshell/Test_BasicGradients.cpp.o"
-	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/testshell.dir/test/testshell/Test_BasicGradients.cpp.o -c /home/aparnank/mvlab/growth_SM2018/test/testshell/Test_BasicGradients.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/aparnank/mvlab/growth_SM2018_forked/build_cmake/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/testshell.dir/test/testshell/Test_BasicGradients.cpp.o"
+	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/testshell.dir/test/testshell/Test_BasicGradients.cpp.o -c /home/aparnank/mvlab/growth_SM2018_forked/test/testshell/Test_BasicGradients.cpp
 
 CMakeFiles/testshell.dir/test/testshell/Test_BasicGradients.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/testshell.dir/test/testshell/Test_BasicGradients.cpp.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/aparnank/mvlab/growth_SM2018/test/testshell/Test_BasicGradients.cpp > CMakeFiles/testshell.dir/test/testshell/Test_BasicGradients.cpp.i
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/aparnank/mvlab/growth_SM2018_forked/test/testshell/Test_BasicGradients.cpp > CMakeFiles/testshell.dir/test/testshell/Test_BasicGradients.cpp.i
 
 CMakeFiles/testshell.dir/test/testshell/Test_BasicGradients.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/testshell.dir/test/testshell/Test_BasicGradients.cpp.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/aparnank/mvlab/growth_SM2018/test/testshell/Test_BasicGradients.cpp -o CMakeFiles/testshell.dir/test/testshell/Test_BasicGradients.cpp.s
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/aparnank/mvlab/growth_SM2018_forked/test/testshell/Test_BasicGradients.cpp -o CMakeFiles/testshell.dir/test/testshell/Test_BasicGradients.cpp.s
 
 CMakeFiles/testshell.dir/test/testshell/Test_BasicGradients.cpp.o.requires:
 
@@ -83,16 +83,16 @@ CMakeFiles/testshell.dir/test/testshell/Test_BasicGradients.cpp.o.provides.build
 
 CMakeFiles/testshell.dir/test/testshell/Test_BendingOperator_Convergence.cpp.o: CMakeFiles/testshell.dir/flags.make
 CMakeFiles/testshell.dir/test/testshell/Test_BendingOperator_Convergence.cpp.o: ../test/testshell/Test_BendingOperator_Convergence.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/aparnank/mvlab/growth_SM2018/build_cmake/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/testshell.dir/test/testshell/Test_BendingOperator_Convergence.cpp.o"
-	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/testshell.dir/test/testshell/Test_BendingOperator_Convergence.cpp.o -c /home/aparnank/mvlab/growth_SM2018/test/testshell/Test_BendingOperator_Convergence.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/aparnank/mvlab/growth_SM2018_forked/build_cmake/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/testshell.dir/test/testshell/Test_BendingOperator_Convergence.cpp.o"
+	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/testshell.dir/test/testshell/Test_BendingOperator_Convergence.cpp.o -c /home/aparnank/mvlab/growth_SM2018_forked/test/testshell/Test_BendingOperator_Convergence.cpp
 
 CMakeFiles/testshell.dir/test/testshell/Test_BendingOperator_Convergence.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/testshell.dir/test/testshell/Test_BendingOperator_Convergence.cpp.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/aparnank/mvlab/growth_SM2018/test/testshell/Test_BendingOperator_Convergence.cpp > CMakeFiles/testshell.dir/test/testshell/Test_BendingOperator_Convergence.cpp.i
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/aparnank/mvlab/growth_SM2018_forked/test/testshell/Test_BendingOperator_Convergence.cpp > CMakeFiles/testshell.dir/test/testshell/Test_BendingOperator_Convergence.cpp.i
 
 CMakeFiles/testshell.dir/test/testshell/Test_BendingOperator_Convergence.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/testshell.dir/test/testshell/Test_BendingOperator_Convergence.cpp.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/aparnank/mvlab/growth_SM2018/test/testshell/Test_BendingOperator_Convergence.cpp -o CMakeFiles/testshell.dir/test/testshell/Test_BendingOperator_Convergence.cpp.s
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/aparnank/mvlab/growth_SM2018_forked/test/testshell/Test_BendingOperator_Convergence.cpp -o CMakeFiles/testshell.dir/test/testshell/Test_BendingOperator_Convergence.cpp.s
 
 CMakeFiles/testshell.dir/test/testshell/Test_BendingOperator_Convergence.cpp.o.requires:
 
@@ -107,16 +107,16 @@ CMakeFiles/testshell.dir/test/testshell/Test_BendingOperator_Convergence.cpp.o.p
 
 CMakeFiles/testshell.dir/test/testshell/Test_EnergyOperatorDCS_Gradient.cpp.o: CMakeFiles/testshell.dir/flags.make
 CMakeFiles/testshell.dir/test/testshell/Test_EnergyOperatorDCS_Gradient.cpp.o: ../test/testshell/Test_EnergyOperatorDCS_Gradient.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/aparnank/mvlab/growth_SM2018/build_cmake/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/testshell.dir/test/testshell/Test_EnergyOperatorDCS_Gradient.cpp.o"
-	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/testshell.dir/test/testshell/Test_EnergyOperatorDCS_Gradient.cpp.o -c /home/aparnank/mvlab/growth_SM2018/test/testshell/Test_EnergyOperatorDCS_Gradient.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/aparnank/mvlab/growth_SM2018_forked/build_cmake/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/testshell.dir/test/testshell/Test_EnergyOperatorDCS_Gradient.cpp.o"
+	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/testshell.dir/test/testshell/Test_EnergyOperatorDCS_Gradient.cpp.o -c /home/aparnank/mvlab/growth_SM2018_forked/test/testshell/Test_EnergyOperatorDCS_Gradient.cpp
 
 CMakeFiles/testshell.dir/test/testshell/Test_EnergyOperatorDCS_Gradient.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/testshell.dir/test/testshell/Test_EnergyOperatorDCS_Gradient.cpp.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/aparnank/mvlab/growth_SM2018/test/testshell/Test_EnergyOperatorDCS_Gradient.cpp > CMakeFiles/testshell.dir/test/testshell/Test_EnergyOperatorDCS_Gradient.cpp.i
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/aparnank/mvlab/growth_SM2018_forked/test/testshell/Test_EnergyOperatorDCS_Gradient.cpp > CMakeFiles/testshell.dir/test/testshell/Test_EnergyOperatorDCS_Gradient.cpp.i
 
 CMakeFiles/testshell.dir/test/testshell/Test_EnergyOperatorDCS_Gradient.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/testshell.dir/test/testshell/Test_EnergyOperatorDCS_Gradient.cpp.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/aparnank/mvlab/growth_SM2018/test/testshell/Test_EnergyOperatorDCS_Gradient.cpp -o CMakeFiles/testshell.dir/test/testshell/Test_EnergyOperatorDCS_Gradient.cpp.s
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/aparnank/mvlab/growth_SM2018_forked/test/testshell/Test_EnergyOperatorDCS_Gradient.cpp -o CMakeFiles/testshell.dir/test/testshell/Test_EnergyOperatorDCS_Gradient.cpp.s
 
 CMakeFiles/testshell.dir/test/testshell/Test_EnergyOperatorDCS_Gradient.cpp.o.requires:
 
@@ -131,16 +131,16 @@ CMakeFiles/testshell.dir/test/testshell/Test_EnergyOperatorDCS_Gradient.cpp.o.pr
 
 CMakeFiles/testshell.dir/test/testshell/Test_StretchingOperator_Convergence.cpp.o: CMakeFiles/testshell.dir/flags.make
 CMakeFiles/testshell.dir/test/testshell/Test_StretchingOperator_Convergence.cpp.o: ../test/testshell/Test_StretchingOperator_Convergence.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/aparnank/mvlab/growth_SM2018/build_cmake/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/testshell.dir/test/testshell/Test_StretchingOperator_Convergence.cpp.o"
-	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/testshell.dir/test/testshell/Test_StretchingOperator_Convergence.cpp.o -c /home/aparnank/mvlab/growth_SM2018/test/testshell/Test_StretchingOperator_Convergence.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/aparnank/mvlab/growth_SM2018_forked/build_cmake/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/testshell.dir/test/testshell/Test_StretchingOperator_Convergence.cpp.o"
+	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/testshell.dir/test/testshell/Test_StretchingOperator_Convergence.cpp.o -c /home/aparnank/mvlab/growth_SM2018_forked/test/testshell/Test_StretchingOperator_Convergence.cpp
 
 CMakeFiles/testshell.dir/test/testshell/Test_StretchingOperator_Convergence.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/testshell.dir/test/testshell/Test_StretchingOperator_Convergence.cpp.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/aparnank/mvlab/growth_SM2018/test/testshell/Test_StretchingOperator_Convergence.cpp > CMakeFiles/testshell.dir/test/testshell/Test_StretchingOperator_Convergence.cpp.i
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/aparnank/mvlab/growth_SM2018_forked/test/testshell/Test_StretchingOperator_Convergence.cpp > CMakeFiles/testshell.dir/test/testshell/Test_StretchingOperator_Convergence.cpp.i
 
 CMakeFiles/testshell.dir/test/testshell/Test_StretchingOperator_Convergence.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/testshell.dir/test/testshell/Test_StretchingOperator_Convergence.cpp.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/aparnank/mvlab/growth_SM2018/test/testshell/Test_StretchingOperator_Convergence.cpp -o CMakeFiles/testshell.dir/test/testshell/Test_StretchingOperator_Convergence.cpp.s
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/aparnank/mvlab/growth_SM2018_forked/test/testshell/Test_StretchingOperator_Convergence.cpp -o CMakeFiles/testshell.dir/test/testshell/Test_StretchingOperator_Convergence.cpp.s
 
 CMakeFiles/testshell.dir/test/testshell/Test_StretchingOperator_Convergence.cpp.o.requires:
 
@@ -155,16 +155,16 @@ CMakeFiles/testshell.dir/test/testshell/Test_StretchingOperator_Convergence.cpp.
 
 CMakeFiles/testshell.dir/test/testshell/Test_WriteReadMesh.cpp.o: CMakeFiles/testshell.dir/flags.make
 CMakeFiles/testshell.dir/test/testshell/Test_WriteReadMesh.cpp.o: ../test/testshell/Test_WriteReadMesh.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/aparnank/mvlab/growth_SM2018/build_cmake/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/testshell.dir/test/testshell/Test_WriteReadMesh.cpp.o"
-	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/testshell.dir/test/testshell/Test_WriteReadMesh.cpp.o -c /home/aparnank/mvlab/growth_SM2018/test/testshell/Test_WriteReadMesh.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/aparnank/mvlab/growth_SM2018_forked/build_cmake/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/testshell.dir/test/testshell/Test_WriteReadMesh.cpp.o"
+	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/testshell.dir/test/testshell/Test_WriteReadMesh.cpp.o -c /home/aparnank/mvlab/growth_SM2018_forked/test/testshell/Test_WriteReadMesh.cpp
 
 CMakeFiles/testshell.dir/test/testshell/Test_WriteReadMesh.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/testshell.dir/test/testshell/Test_WriteReadMesh.cpp.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/aparnank/mvlab/growth_SM2018/test/testshell/Test_WriteReadMesh.cpp > CMakeFiles/testshell.dir/test/testshell/Test_WriteReadMesh.cpp.i
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/aparnank/mvlab/growth_SM2018_forked/test/testshell/Test_WriteReadMesh.cpp > CMakeFiles/testshell.dir/test/testshell/Test_WriteReadMesh.cpp.i
 
 CMakeFiles/testshell.dir/test/testshell/Test_WriteReadMesh.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/testshell.dir/test/testshell/Test_WriteReadMesh.cpp.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/aparnank/mvlab/growth_SM2018/test/testshell/Test_WriteReadMesh.cpp -o CMakeFiles/testshell.dir/test/testshell/Test_WriteReadMesh.cpp.s
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/aparnank/mvlab/growth_SM2018_forked/test/testshell/Test_WriteReadMesh.cpp -o CMakeFiles/testshell.dir/test/testshell/Test_WriteReadMesh.cpp.s
 
 CMakeFiles/testshell.dir/test/testshell/Test_WriteReadMesh.cpp.o.requires:
 
@@ -179,16 +179,16 @@ CMakeFiles/testshell.dir/test/testshell/Test_WriteReadMesh.cpp.o.provides.build:
 
 CMakeFiles/testshell.dir/test/testshell/test_energy_staticeq.cpp.o: CMakeFiles/testshell.dir/flags.make
 CMakeFiles/testshell.dir/test/testshell/test_energy_staticeq.cpp.o: ../test/testshell/test_energy_staticeq.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/aparnank/mvlab/growth_SM2018/build_cmake/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/testshell.dir/test/testshell/test_energy_staticeq.cpp.o"
-	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/testshell.dir/test/testshell/test_energy_staticeq.cpp.o -c /home/aparnank/mvlab/growth_SM2018/test/testshell/test_energy_staticeq.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/aparnank/mvlab/growth_SM2018_forked/build_cmake/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/testshell.dir/test/testshell/test_energy_staticeq.cpp.o"
+	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/testshell.dir/test/testshell/test_energy_staticeq.cpp.o -c /home/aparnank/mvlab/growth_SM2018_forked/test/testshell/test_energy_staticeq.cpp
 
 CMakeFiles/testshell.dir/test/testshell/test_energy_staticeq.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/testshell.dir/test/testshell/test_energy_staticeq.cpp.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/aparnank/mvlab/growth_SM2018/test/testshell/test_energy_staticeq.cpp > CMakeFiles/testshell.dir/test/testshell/test_energy_staticeq.cpp.i
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/aparnank/mvlab/growth_SM2018_forked/test/testshell/test_energy_staticeq.cpp > CMakeFiles/testshell.dir/test/testshell/test_energy_staticeq.cpp.i
 
 CMakeFiles/testshell.dir/test/testshell/test_energy_staticeq.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/testshell.dir/test/testshell/test_energy_staticeq.cpp.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/aparnank/mvlab/growth_SM2018/test/testshell/test_energy_staticeq.cpp -o CMakeFiles/testshell.dir/test/testshell/test_energy_staticeq.cpp.s
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/aparnank/mvlab/growth_SM2018_forked/test/testshell/test_energy_staticeq.cpp -o CMakeFiles/testshell.dir/test/testshell/test_energy_staticeq.cpp.s
 
 CMakeFiles/testshell.dir/test/testshell/test_energy_staticeq.cpp.o.requires:
 
@@ -360,7 +360,7 @@ testshell_EXTERNAL_OBJECTS =
 ../bin/testshell: /usr/local/lib/libvtkloguru-9.0.so.9.0.1
 ../bin/testshell: /usr/local/lib/libvtksys-9.0.so.9.0.1
 ../bin/testshell: CMakeFiles/testshell.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/aparnank/mvlab/growth_SM2018/build_cmake/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable ../bin/testshell"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/aparnank/mvlab/growth_SM2018_forked/build_cmake/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable ../bin/testshell"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/testshell.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -382,6 +382,6 @@ CMakeFiles/testshell.dir/clean:
 .PHONY : CMakeFiles/testshell.dir/clean
 
 CMakeFiles/testshell.dir/depend:
-	cd /home/aparnank/mvlab/growth_SM2018/build_cmake && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/aparnank/mvlab/growth_SM2018 /home/aparnank/mvlab/growth_SM2018 /home/aparnank/mvlab/growth_SM2018/build_cmake /home/aparnank/mvlab/growth_SM2018/build_cmake /home/aparnank/mvlab/growth_SM2018/build_cmake/CMakeFiles/testshell.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/aparnank/mvlab/growth_SM2018_forked/build_cmake && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/aparnank/mvlab/growth_SM2018_forked /home/aparnank/mvlab/growth_SM2018_forked /home/aparnank/mvlab/growth_SM2018_forked/build_cmake /home/aparnank/mvlab/growth_SM2018_forked/build_cmake /home/aparnank/mvlab/growth_SM2018_forked/build_cmake/CMakeFiles/testshell.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/testshell.dir/depend
 

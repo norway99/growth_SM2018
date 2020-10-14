@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/aparnank/mvlab/growth_SM2018
+CMAKE_SOURCE_DIR = /home/aparnank/mvlab/growth_SM2018_forked
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/aparnank/mvlab/growth_SM2018/build_cmake
+CMAKE_BINARY_DIR = /home/aparnank/mvlab/growth_SM2018_forked/build_cmake
 
 # Include any dependencies generated for this target.
 include CMakeFiles/libshell.dir/depend.make
@@ -59,16 +59,16 @@ include CMakeFiles/libshell.dir/flags.make
 
 CMakeFiles/libshell.dir/src/libshell/BendingOperator_Parametric.cpp.o: CMakeFiles/libshell.dir/flags.make
 CMakeFiles/libshell.dir/src/libshell/BendingOperator_Parametric.cpp.o: ../src/libshell/BendingOperator_Parametric.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/aparnank/mvlab/growth_SM2018/build_cmake/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/libshell.dir/src/libshell/BendingOperator_Parametric.cpp.o"
-	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/libshell.dir/src/libshell/BendingOperator_Parametric.cpp.o -c /home/aparnank/mvlab/growth_SM2018/src/libshell/BendingOperator_Parametric.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/aparnank/mvlab/growth_SM2018_forked/build_cmake/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/libshell.dir/src/libshell/BendingOperator_Parametric.cpp.o"
+	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/libshell.dir/src/libshell/BendingOperator_Parametric.cpp.o -c /home/aparnank/mvlab/growth_SM2018_forked/src/libshell/BendingOperator_Parametric.cpp
 
 CMakeFiles/libshell.dir/src/libshell/BendingOperator_Parametric.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/libshell.dir/src/libshell/BendingOperator_Parametric.cpp.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/aparnank/mvlab/growth_SM2018/src/libshell/BendingOperator_Parametric.cpp > CMakeFiles/libshell.dir/src/libshell/BendingOperator_Parametric.cpp.i
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/aparnank/mvlab/growth_SM2018_forked/src/libshell/BendingOperator_Parametric.cpp > CMakeFiles/libshell.dir/src/libshell/BendingOperator_Parametric.cpp.i
 
 CMakeFiles/libshell.dir/src/libshell/BendingOperator_Parametric.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/libshell.dir/src/libshell/BendingOperator_Parametric.cpp.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/aparnank/mvlab/growth_SM2018/src/libshell/BendingOperator_Parametric.cpp -o CMakeFiles/libshell.dir/src/libshell/BendingOperator_Parametric.cpp.s
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/aparnank/mvlab/growth_SM2018_forked/src/libshell/BendingOperator_Parametric.cpp -o CMakeFiles/libshell.dir/src/libshell/BendingOperator_Parametric.cpp.s
 
 CMakeFiles/libshell.dir/src/libshell/BendingOperator_Parametric.cpp.o.requires:
 
@@ -83,16 +83,16 @@ CMakeFiles/libshell.dir/src/libshell/BendingOperator_Parametric.cpp.o.provides.b
 
 CMakeFiles/libshell.dir/src/libshell/CombinedOperator_Parametric.cpp.o: CMakeFiles/libshell.dir/flags.make
 CMakeFiles/libshell.dir/src/libshell/CombinedOperator_Parametric.cpp.o: ../src/libshell/CombinedOperator_Parametric.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/aparnank/mvlab/growth_SM2018/build_cmake/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/libshell.dir/src/libshell/CombinedOperator_Parametric.cpp.o"
-	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/libshell.dir/src/libshell/CombinedOperator_Parametric.cpp.o -c /home/aparnank/mvlab/growth_SM2018/src/libshell/CombinedOperator_Parametric.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/aparnank/mvlab/growth_SM2018_forked/build_cmake/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/libshell.dir/src/libshell/CombinedOperator_Parametric.cpp.o"
+	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/libshell.dir/src/libshell/CombinedOperator_Parametric.cpp.o -c /home/aparnank/mvlab/growth_SM2018_forked/src/libshell/CombinedOperator_Parametric.cpp
 
 CMakeFiles/libshell.dir/src/libshell/CombinedOperator_Parametric.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/libshell.dir/src/libshell/CombinedOperator_Parametric.cpp.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/aparnank/mvlab/growth_SM2018/src/libshell/CombinedOperator_Parametric.cpp > CMakeFiles/libshell.dir/src/libshell/CombinedOperator_Parametric.cpp.i
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/aparnank/mvlab/growth_SM2018_forked/src/libshell/CombinedOperator_Parametric.cpp > CMakeFiles/libshell.dir/src/libshell/CombinedOperator_Parametric.cpp.i
 
 CMakeFiles/libshell.dir/src/libshell/CombinedOperator_Parametric.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/libshell.dir/src/libshell/CombinedOperator_Parametric.cpp.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/aparnank/mvlab/growth_SM2018/src/libshell/CombinedOperator_Parametric.cpp -o CMakeFiles/libshell.dir/src/libshell/CombinedOperator_Parametric.cpp.s
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/aparnank/mvlab/growth_SM2018_forked/src/libshell/CombinedOperator_Parametric.cpp -o CMakeFiles/libshell.dir/src/libshell/CombinedOperator_Parametric.cpp.s
 
 CMakeFiles/libshell.dir/src/libshell/CombinedOperator_Parametric.cpp.o.requires:
 
@@ -107,16 +107,16 @@ CMakeFiles/libshell.dir/src/libshell/CombinedOperator_Parametric.cpp.o.provides.
 
 CMakeFiles/libshell.dir/src/libshell/ComputeCurvatures.cpp.o: CMakeFiles/libshell.dir/flags.make
 CMakeFiles/libshell.dir/src/libshell/ComputeCurvatures.cpp.o: ../src/libshell/ComputeCurvatures.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/aparnank/mvlab/growth_SM2018/build_cmake/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/libshell.dir/src/libshell/ComputeCurvatures.cpp.o"
-	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/libshell.dir/src/libshell/ComputeCurvatures.cpp.o -c /home/aparnank/mvlab/growth_SM2018/src/libshell/ComputeCurvatures.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/aparnank/mvlab/growth_SM2018_forked/build_cmake/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/libshell.dir/src/libshell/ComputeCurvatures.cpp.o"
+	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/libshell.dir/src/libshell/ComputeCurvatures.cpp.o -c /home/aparnank/mvlab/growth_SM2018_forked/src/libshell/ComputeCurvatures.cpp
 
 CMakeFiles/libshell.dir/src/libshell/ComputeCurvatures.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/libshell.dir/src/libshell/ComputeCurvatures.cpp.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/aparnank/mvlab/growth_SM2018/src/libshell/ComputeCurvatures.cpp > CMakeFiles/libshell.dir/src/libshell/ComputeCurvatures.cpp.i
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/aparnank/mvlab/growth_SM2018_forked/src/libshell/ComputeCurvatures.cpp > CMakeFiles/libshell.dir/src/libshell/ComputeCurvatures.cpp.i
 
 CMakeFiles/libshell.dir/src/libshell/ComputeCurvatures.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/libshell.dir/src/libshell/ComputeCurvatures.cpp.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/aparnank/mvlab/growth_SM2018/src/libshell/ComputeCurvatures.cpp -o CMakeFiles/libshell.dir/src/libshell/ComputeCurvatures.cpp.s
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/aparnank/mvlab/growth_SM2018_forked/src/libshell/ComputeCurvatures.cpp -o CMakeFiles/libshell.dir/src/libshell/ComputeCurvatures.cpp.s
 
 CMakeFiles/libshell.dir/src/libshell/ComputeCurvatures.cpp.o.requires:
 
@@ -131,16 +131,16 @@ CMakeFiles/libshell.dir/src/libshell/ComputeCurvatures.cpp.o.provides.build: CMa
 
 CMakeFiles/libshell.dir/src/libshell/ComputeHausdorffDistance.cpp.o: CMakeFiles/libshell.dir/flags.make
 CMakeFiles/libshell.dir/src/libshell/ComputeHausdorffDistance.cpp.o: ../src/libshell/ComputeHausdorffDistance.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/aparnank/mvlab/growth_SM2018/build_cmake/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/libshell.dir/src/libshell/ComputeHausdorffDistance.cpp.o"
-	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/libshell.dir/src/libshell/ComputeHausdorffDistance.cpp.o -c /home/aparnank/mvlab/growth_SM2018/src/libshell/ComputeHausdorffDistance.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/aparnank/mvlab/growth_SM2018_forked/build_cmake/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/libshell.dir/src/libshell/ComputeHausdorffDistance.cpp.o"
+	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/libshell.dir/src/libshell/ComputeHausdorffDistance.cpp.o -c /home/aparnank/mvlab/growth_SM2018_forked/src/libshell/ComputeHausdorffDistance.cpp
 
 CMakeFiles/libshell.dir/src/libshell/ComputeHausdorffDistance.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/libshell.dir/src/libshell/ComputeHausdorffDistance.cpp.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/aparnank/mvlab/growth_SM2018/src/libshell/ComputeHausdorffDistance.cpp > CMakeFiles/libshell.dir/src/libshell/ComputeHausdorffDistance.cpp.i
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/aparnank/mvlab/growth_SM2018_forked/src/libshell/ComputeHausdorffDistance.cpp > CMakeFiles/libshell.dir/src/libshell/ComputeHausdorffDistance.cpp.i
 
 CMakeFiles/libshell.dir/src/libshell/ComputeHausdorffDistance.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/libshell.dir/src/libshell/ComputeHausdorffDistance.cpp.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/aparnank/mvlab/growth_SM2018/src/libshell/ComputeHausdorffDistance.cpp -o CMakeFiles/libshell.dir/src/libshell/ComputeHausdorffDistance.cpp.s
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/aparnank/mvlab/growth_SM2018_forked/src/libshell/ComputeHausdorffDistance.cpp -o CMakeFiles/libshell.dir/src/libshell/ComputeHausdorffDistance.cpp.s
 
 CMakeFiles/libshell.dir/src/libshell/ComputeHausdorffDistance.cpp.o.requires:
 
@@ -155,16 +155,16 @@ CMakeFiles/libshell.dir/src/libshell/ComputeHausdorffDistance.cpp.o.provides.bui
 
 CMakeFiles/libshell.dir/src/libshell/StretchingOperator_Parametric.cpp.o: CMakeFiles/libshell.dir/flags.make
 CMakeFiles/libshell.dir/src/libshell/StretchingOperator_Parametric.cpp.o: ../src/libshell/StretchingOperator_Parametric.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/aparnank/mvlab/growth_SM2018/build_cmake/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/libshell.dir/src/libshell/StretchingOperator_Parametric.cpp.o"
-	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/libshell.dir/src/libshell/StretchingOperator_Parametric.cpp.o -c /home/aparnank/mvlab/growth_SM2018/src/libshell/StretchingOperator_Parametric.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/aparnank/mvlab/growth_SM2018_forked/build_cmake/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/libshell.dir/src/libshell/StretchingOperator_Parametric.cpp.o"
+	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/libshell.dir/src/libshell/StretchingOperator_Parametric.cpp.o -c /home/aparnank/mvlab/growth_SM2018_forked/src/libshell/StretchingOperator_Parametric.cpp
 
 CMakeFiles/libshell.dir/src/libshell/StretchingOperator_Parametric.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/libshell.dir/src/libshell/StretchingOperator_Parametric.cpp.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/aparnank/mvlab/growth_SM2018/src/libshell/StretchingOperator_Parametric.cpp > CMakeFiles/libshell.dir/src/libshell/StretchingOperator_Parametric.cpp.i
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/aparnank/mvlab/growth_SM2018_forked/src/libshell/StretchingOperator_Parametric.cpp > CMakeFiles/libshell.dir/src/libshell/StretchingOperator_Parametric.cpp.i
 
 CMakeFiles/libshell.dir/src/libshell/StretchingOperator_Parametric.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/libshell.dir/src/libshell/StretchingOperator_Parametric.cpp.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/aparnank/mvlab/growth_SM2018/src/libshell/StretchingOperator_Parametric.cpp -o CMakeFiles/libshell.dir/src/libshell/StretchingOperator_Parametric.cpp.s
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/aparnank/mvlab/growth_SM2018_forked/src/libshell/StretchingOperator_Parametric.cpp -o CMakeFiles/libshell.dir/src/libshell/StretchingOperator_Parametric.cpp.s
 
 CMakeFiles/libshell.dir/src/libshell/StretchingOperator_Parametric.cpp.o.requires:
 
@@ -329,7 +329,7 @@ libshell_EXTERNAL_OBJECTS =
 ../lib/liblibshell.so: /usr/local/lib/libvtkloguru-9.0.so.9.0.1
 ../lib/liblibshell.so: /usr/local/lib/libvtksys-9.0.so.9.0.1
 ../lib/liblibshell.so: CMakeFiles/libshell.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/aparnank/mvlab/growth_SM2018/build_cmake/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX shared library ../lib/liblibshell.so"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/aparnank/mvlab/growth_SM2018_forked/build_cmake/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX shared library ../lib/liblibshell.so"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/libshell.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -350,6 +350,6 @@ CMakeFiles/libshell.dir/clean:
 .PHONY : CMakeFiles/libshell.dir/clean
 
 CMakeFiles/libshell.dir/depend:
-	cd /home/aparnank/mvlab/growth_SM2018/build_cmake && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/aparnank/mvlab/growth_SM2018 /home/aparnank/mvlab/growth_SM2018 /home/aparnank/mvlab/growth_SM2018/build_cmake /home/aparnank/mvlab/growth_SM2018/build_cmake /home/aparnank/mvlab/growth_SM2018/build_cmake/CMakeFiles/libshell.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/aparnank/mvlab/growth_SM2018_forked/build_cmake && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/aparnank/mvlab/growth_SM2018_forked /home/aparnank/mvlab/growth_SM2018_forked /home/aparnank/mvlab/growth_SM2018_forked/build_cmake /home/aparnank/mvlab/growth_SM2018_forked/build_cmake /home/aparnank/mvlab/growth_SM2018_forked/build_cmake/CMakeFiles/libshell.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/libshell.dir/depend
 

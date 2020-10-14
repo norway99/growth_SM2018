@@ -3,28 +3,28 @@
 
 CMakeFiles/libshell.dir/src/libshell/BendingOperator_Parametric.cpp.o
  ../src/libshell/Timer.hpp
- /home/aparnank/mvlab/growth_SM2018/src/libshell/BendingOperator_Parametric.cpp
- /home/aparnank/mvlab/growth_SM2018/src/libshell/BendingOperator_Parametric.hpp
- /home/aparnank/mvlab/growth_SM2018/src/libshell/BoundaryConditionsData.hpp
- /home/aparnank/mvlab/growth_SM2018/src/libshell/ConfigurationData.hpp
- /home/aparnank/mvlab/growth_SM2018/src/libshell/CreateExtendedTriangleInfos.hpp
- /home/aparnank/mvlab/growth_SM2018/src/libshell/DCSConfigurations.hpp
- /home/aparnank/mvlab/growth_SM2018/src/libshell/DCSCurrentConfigurationData.hpp
- /home/aparnank/mvlab/growth_SM2018/src/libshell/EnergyHelper_Parametric.hpp
- /home/aparnank/mvlab/growth_SM2018/src/libshell/EnergyHelper_Parametric_Ortho.hpp
- /home/aparnank/mvlab/growth_SM2018/src/libshell/EnergyOperator.hpp
- /home/aparnank/mvlab/growth_SM2018/src/libshell/ExtendedTriangleInfo.hpp
- /home/aparnank/mvlab/growth_SM2018/src/libshell/Geometry.hpp
- /home/aparnank/mvlab/growth_SM2018/src/libshell/MaterialProperties.hpp
- /home/aparnank/mvlab/growth_SM2018/src/libshell/MergePerFaceQuantities.hpp
- /home/aparnank/mvlab/growth_SM2018/src/libshell/Mesh.hpp
- /home/aparnank/mvlab/growth_SM2018/src/libshell/Profiler.hpp
- /home/aparnank/mvlab/growth_SM2018/src/libshell/QuadraticForms.hpp
- /home/aparnank/mvlab/growth_SM2018/src/libshell/ReadVTK.hpp
- /home/aparnank/mvlab/growth_SM2018/src/libshell/TopologyData.hpp
- /home/aparnank/mvlab/growth_SM2018/src/libshell/TriangleInfo.hpp
- /home/aparnank/mvlab/growth_SM2018/src/libshell/Triangulate_TRIANGLE.hpp
- /home/aparnank/mvlab/growth_SM2018/src/libshell/common.hpp
+ /home/aparnank/mvlab/growth_SM2018_forked/src/libshell/BendingOperator_Parametric.cpp
+ /home/aparnank/mvlab/growth_SM2018_forked/src/libshell/BendingOperator_Parametric.hpp
+ /home/aparnank/mvlab/growth_SM2018_forked/src/libshell/BoundaryConditionsData.hpp
+ /home/aparnank/mvlab/growth_SM2018_forked/src/libshell/ConfigurationData.hpp
+ /home/aparnank/mvlab/growth_SM2018_forked/src/libshell/CreateExtendedTriangleInfos.hpp
+ /home/aparnank/mvlab/growth_SM2018_forked/src/libshell/DCSConfigurations.hpp
+ /home/aparnank/mvlab/growth_SM2018_forked/src/libshell/DCSCurrentConfigurationData.hpp
+ /home/aparnank/mvlab/growth_SM2018_forked/src/libshell/EnergyHelper_Parametric.hpp
+ /home/aparnank/mvlab/growth_SM2018_forked/src/libshell/EnergyHelper_Parametric_Ortho.hpp
+ /home/aparnank/mvlab/growth_SM2018_forked/src/libshell/EnergyOperator.hpp
+ /home/aparnank/mvlab/growth_SM2018_forked/src/libshell/ExtendedTriangleInfo.hpp
+ /home/aparnank/mvlab/growth_SM2018_forked/src/libshell/Geometry.hpp
+ /home/aparnank/mvlab/growth_SM2018_forked/src/libshell/MaterialProperties.hpp
+ /home/aparnank/mvlab/growth_SM2018_forked/src/libshell/MergePerFaceQuantities.hpp
+ /home/aparnank/mvlab/growth_SM2018_forked/src/libshell/Mesh.hpp
+ /home/aparnank/mvlab/growth_SM2018_forked/src/libshell/Profiler.hpp
+ /home/aparnank/mvlab/growth_SM2018_forked/src/libshell/QuadraticForms.hpp
+ /home/aparnank/mvlab/growth_SM2018_forked/src/libshell/ReadVTK.hpp
+ /home/aparnank/mvlab/growth_SM2018_forked/src/libshell/TopologyData.hpp
+ /home/aparnank/mvlab/growth_SM2018_forked/src/libshell/TriangleInfo.hpp
+ /home/aparnank/mvlab/growth_SM2018_forked/src/libshell/Triangulate_TRIANGLE.hpp
+ /home/aparnank/mvlab/growth_SM2018_forked/src/libshell/common.hpp
  /usr/include/eigen3/Eigen/Cholesky
  /usr/include/eigen3/Eigen/Core
  /usr/include/eigen3/Eigen/Dense
@@ -446,28 +446,28 @@ CMakeFiles/libshell.dir/src/libshell/BendingOperator_Parametric.cpp.o
  TRIANGLE-src/triangle.h
 CMakeFiles/libshell.dir/src/libshell/CombinedOperator_Parametric.cpp.o
  ../src/libshell/Timer.hpp
- /home/aparnank/mvlab/growth_SM2018/src/libshell/BoundaryConditionsData.hpp
- /home/aparnank/mvlab/growth_SM2018/src/libshell/CombinedOperator_Parametric.cpp
- /home/aparnank/mvlab/growth_SM2018/src/libshell/CombinedOperator_Parametric.hpp
- /home/aparnank/mvlab/growth_SM2018/src/libshell/ConfigurationData.hpp
- /home/aparnank/mvlab/growth_SM2018/src/libshell/CreateExtendedTriangleInfos.hpp
- /home/aparnank/mvlab/growth_SM2018/src/libshell/DCSConfigurations.hpp
- /home/aparnank/mvlab/growth_SM2018/src/libshell/DCSCurrentConfigurationData.hpp
- /home/aparnank/mvlab/growth_SM2018/src/libshell/EnergyHelper_Parametric.hpp
- /home/aparnank/mvlab/growth_SM2018/src/libshell/EnergyHelper_Parametric_Ortho.hpp
- /home/aparnank/mvlab/growth_SM2018/src/libshell/EnergyOperator.hpp
- /home/aparnank/mvlab/growth_SM2018/src/libshell/ExtendedTriangleInfo.hpp
- /home/aparnank/mvlab/growth_SM2018/src/libshell/Geometry.hpp
- /home/aparnank/mvlab/growth_SM2018/src/libshell/MaterialProperties.hpp
- /home/aparnank/mvlab/growth_SM2018/src/libshell/MergePerFaceQuantities.hpp
- /home/aparnank/mvlab/growth_SM2018/src/libshell/Mesh.hpp
- /home/aparnank/mvlab/growth_SM2018/src/libshell/Profiler.hpp
- /home/aparnank/mvlab/growth_SM2018/src/libshell/QuadraticForms.hpp
- /home/aparnank/mvlab/growth_SM2018/src/libshell/ReadVTK.hpp
- /home/aparnank/mvlab/growth_SM2018/src/libshell/TopologyData.hpp
- /home/aparnank/mvlab/growth_SM2018/src/libshell/TriangleInfo.hpp
- /home/aparnank/mvlab/growth_SM2018/src/libshell/Triangulate_TRIANGLE.hpp
- /home/aparnank/mvlab/growth_SM2018/src/libshell/common.hpp
+ /home/aparnank/mvlab/growth_SM2018_forked/src/libshell/BoundaryConditionsData.hpp
+ /home/aparnank/mvlab/growth_SM2018_forked/src/libshell/CombinedOperator_Parametric.cpp
+ /home/aparnank/mvlab/growth_SM2018_forked/src/libshell/CombinedOperator_Parametric.hpp
+ /home/aparnank/mvlab/growth_SM2018_forked/src/libshell/ConfigurationData.hpp
+ /home/aparnank/mvlab/growth_SM2018_forked/src/libshell/CreateExtendedTriangleInfos.hpp
+ /home/aparnank/mvlab/growth_SM2018_forked/src/libshell/DCSConfigurations.hpp
+ /home/aparnank/mvlab/growth_SM2018_forked/src/libshell/DCSCurrentConfigurationData.hpp
+ /home/aparnank/mvlab/growth_SM2018_forked/src/libshell/EnergyHelper_Parametric.hpp
+ /home/aparnank/mvlab/growth_SM2018_forked/src/libshell/EnergyHelper_Parametric_Ortho.hpp
+ /home/aparnank/mvlab/growth_SM2018_forked/src/libshell/EnergyOperator.hpp
+ /home/aparnank/mvlab/growth_SM2018_forked/src/libshell/ExtendedTriangleInfo.hpp
+ /home/aparnank/mvlab/growth_SM2018_forked/src/libshell/Geometry.hpp
+ /home/aparnank/mvlab/growth_SM2018_forked/src/libshell/MaterialProperties.hpp
+ /home/aparnank/mvlab/growth_SM2018_forked/src/libshell/MergePerFaceQuantities.hpp
+ /home/aparnank/mvlab/growth_SM2018_forked/src/libshell/Mesh.hpp
+ /home/aparnank/mvlab/growth_SM2018_forked/src/libshell/Profiler.hpp
+ /home/aparnank/mvlab/growth_SM2018_forked/src/libshell/QuadraticForms.hpp
+ /home/aparnank/mvlab/growth_SM2018_forked/src/libshell/ReadVTK.hpp
+ /home/aparnank/mvlab/growth_SM2018_forked/src/libshell/TopologyData.hpp
+ /home/aparnank/mvlab/growth_SM2018_forked/src/libshell/TriangleInfo.hpp
+ /home/aparnank/mvlab/growth_SM2018_forked/src/libshell/Triangulate_TRIANGLE.hpp
+ /home/aparnank/mvlab/growth_SM2018_forked/src/libshell/common.hpp
  /usr/include/eigen3/Eigen/Cholesky
  /usr/include/eigen3/Eigen/Core
  /usr/include/eigen3/Eigen/Dense
@@ -888,21 +888,21 @@ CMakeFiles/libshell.dir/src/libshell/CombinedOperator_Parametric.cpp.o
  LIBIGL-src/include/igl/vertex_triangle_adjacency.h
  TRIANGLE-src/triangle.h
 CMakeFiles/libshell.dir/src/libshell/ComputeCurvatures.cpp.o
- /home/aparnank/mvlab/growth_SM2018/src/libshell/BoundaryConditionsData.hpp
- /home/aparnank/mvlab/growth_SM2018/src/libshell/ComputeCurvatures.cpp
- /home/aparnank/mvlab/growth_SM2018/src/libshell/ComputeCurvatures.hpp
- /home/aparnank/mvlab/growth_SM2018/src/libshell/ConfigurationData.hpp
- /home/aparnank/mvlab/growth_SM2018/src/libshell/CreateExtendedTriangleInfos.hpp
- /home/aparnank/mvlab/growth_SM2018/src/libshell/DCSConfigurations.hpp
- /home/aparnank/mvlab/growth_SM2018/src/libshell/DCSCurrentConfigurationData.hpp
- /home/aparnank/mvlab/growth_SM2018/src/libshell/ExtendedTriangleInfo.hpp
- /home/aparnank/mvlab/growth_SM2018/src/libshell/Geometry.hpp
- /home/aparnank/mvlab/growth_SM2018/src/libshell/Mesh.hpp
- /home/aparnank/mvlab/growth_SM2018/src/libshell/ReadVTK.hpp
- /home/aparnank/mvlab/growth_SM2018/src/libshell/TopologyData.hpp
- /home/aparnank/mvlab/growth_SM2018/src/libshell/TriangleInfo.hpp
- /home/aparnank/mvlab/growth_SM2018/src/libshell/Triangulate_TRIANGLE.hpp
- /home/aparnank/mvlab/growth_SM2018/src/libshell/common.hpp
+ /home/aparnank/mvlab/growth_SM2018_forked/src/libshell/BoundaryConditionsData.hpp
+ /home/aparnank/mvlab/growth_SM2018_forked/src/libshell/ComputeCurvatures.cpp
+ /home/aparnank/mvlab/growth_SM2018_forked/src/libshell/ComputeCurvatures.hpp
+ /home/aparnank/mvlab/growth_SM2018_forked/src/libshell/ConfigurationData.hpp
+ /home/aparnank/mvlab/growth_SM2018_forked/src/libshell/CreateExtendedTriangleInfos.hpp
+ /home/aparnank/mvlab/growth_SM2018_forked/src/libshell/DCSConfigurations.hpp
+ /home/aparnank/mvlab/growth_SM2018_forked/src/libshell/DCSCurrentConfigurationData.hpp
+ /home/aparnank/mvlab/growth_SM2018_forked/src/libshell/ExtendedTriangleInfo.hpp
+ /home/aparnank/mvlab/growth_SM2018_forked/src/libshell/Geometry.hpp
+ /home/aparnank/mvlab/growth_SM2018_forked/src/libshell/Mesh.hpp
+ /home/aparnank/mvlab/growth_SM2018_forked/src/libshell/ReadVTK.hpp
+ /home/aparnank/mvlab/growth_SM2018_forked/src/libshell/TopologyData.hpp
+ /home/aparnank/mvlab/growth_SM2018_forked/src/libshell/TriangleInfo.hpp
+ /home/aparnank/mvlab/growth_SM2018_forked/src/libshell/Triangulate_TRIANGLE.hpp
+ /home/aparnank/mvlab/growth_SM2018_forked/src/libshell/common.hpp
  /usr/include/eigen3/Eigen/Cholesky
  /usr/include/eigen3/Eigen/Core
  /usr/include/eigen3/Eigen/Dense
@@ -1323,10 +1323,10 @@ CMakeFiles/libshell.dir/src/libshell/ComputeCurvatures.cpp.o
  LIBIGL-src/include/igl/vertex_triangle_adjacency.h
  TRIANGLE-src/triangle.h
 CMakeFiles/libshell.dir/src/libshell/ComputeHausdorffDistance.cpp.o
- /home/aparnank/mvlab/growth_SM2018/src/libshell/ComputeHausdorffDistance.cpp
- /home/aparnank/mvlab/growth_SM2018/src/libshell/ComputeHausdorffDistance.hpp
- /home/aparnank/mvlab/growth_SM2018/src/libshell/WriteVTK.hpp
- /home/aparnank/mvlab/growth_SM2018/src/libshell/common.hpp
+ /home/aparnank/mvlab/growth_SM2018_forked/src/libshell/ComputeHausdorffDistance.cpp
+ /home/aparnank/mvlab/growth_SM2018_forked/src/libshell/ComputeHausdorffDistance.hpp
+ /home/aparnank/mvlab/growth_SM2018_forked/src/libshell/WriteVTK.hpp
+ /home/aparnank/mvlab/growth_SM2018_forked/src/libshell/common.hpp
  /usr/include/eigen3/Eigen/Cholesky
  /usr/include/eigen3/Eigen/Core
  /usr/include/eigen3/Eigen/Dense
@@ -1744,28 +1744,28 @@ CMakeFiles/libshell.dir/src/libshell/ComputeHausdorffDistance.cpp.o
  LIBIGL-src/include/igl/volume.h
 CMakeFiles/libshell.dir/src/libshell/StretchingOperator_Parametric.cpp.o
  ../src/libshell/Timer.hpp
- /home/aparnank/mvlab/growth_SM2018/src/libshell/BoundaryConditionsData.hpp
- /home/aparnank/mvlab/growth_SM2018/src/libshell/ConfigurationData.hpp
- /home/aparnank/mvlab/growth_SM2018/src/libshell/CreateExtendedTriangleInfos.hpp
- /home/aparnank/mvlab/growth_SM2018/src/libshell/DCSConfigurations.hpp
- /home/aparnank/mvlab/growth_SM2018/src/libshell/DCSCurrentConfigurationData.hpp
- /home/aparnank/mvlab/growth_SM2018/src/libshell/EnergyHelper_Parametric.hpp
- /home/aparnank/mvlab/growth_SM2018/src/libshell/EnergyHelper_Parametric_Ortho.hpp
- /home/aparnank/mvlab/growth_SM2018/src/libshell/EnergyOperator.hpp
- /home/aparnank/mvlab/growth_SM2018/src/libshell/ExtendedTriangleInfo.hpp
- /home/aparnank/mvlab/growth_SM2018/src/libshell/Geometry.hpp
- /home/aparnank/mvlab/growth_SM2018/src/libshell/MaterialProperties.hpp
- /home/aparnank/mvlab/growth_SM2018/src/libshell/MergePerFaceQuantities.hpp
- /home/aparnank/mvlab/growth_SM2018/src/libshell/Mesh.hpp
- /home/aparnank/mvlab/growth_SM2018/src/libshell/Profiler.hpp
- /home/aparnank/mvlab/growth_SM2018/src/libshell/QuadraticForms.hpp
- /home/aparnank/mvlab/growth_SM2018/src/libshell/ReadVTK.hpp
- /home/aparnank/mvlab/growth_SM2018/src/libshell/StretchingOperator_Parametric.cpp
- /home/aparnank/mvlab/growth_SM2018/src/libshell/StretchingOperator_Parametric.hpp
- /home/aparnank/mvlab/growth_SM2018/src/libshell/TopologyData.hpp
- /home/aparnank/mvlab/growth_SM2018/src/libshell/TriangleInfo.hpp
- /home/aparnank/mvlab/growth_SM2018/src/libshell/Triangulate_TRIANGLE.hpp
- /home/aparnank/mvlab/growth_SM2018/src/libshell/common.hpp
+ /home/aparnank/mvlab/growth_SM2018_forked/src/libshell/BoundaryConditionsData.hpp
+ /home/aparnank/mvlab/growth_SM2018_forked/src/libshell/ConfigurationData.hpp
+ /home/aparnank/mvlab/growth_SM2018_forked/src/libshell/CreateExtendedTriangleInfos.hpp
+ /home/aparnank/mvlab/growth_SM2018_forked/src/libshell/DCSConfigurations.hpp
+ /home/aparnank/mvlab/growth_SM2018_forked/src/libshell/DCSCurrentConfigurationData.hpp
+ /home/aparnank/mvlab/growth_SM2018_forked/src/libshell/EnergyHelper_Parametric.hpp
+ /home/aparnank/mvlab/growth_SM2018_forked/src/libshell/EnergyHelper_Parametric_Ortho.hpp
+ /home/aparnank/mvlab/growth_SM2018_forked/src/libshell/EnergyOperator.hpp
+ /home/aparnank/mvlab/growth_SM2018_forked/src/libshell/ExtendedTriangleInfo.hpp
+ /home/aparnank/mvlab/growth_SM2018_forked/src/libshell/Geometry.hpp
+ /home/aparnank/mvlab/growth_SM2018_forked/src/libshell/MaterialProperties.hpp
+ /home/aparnank/mvlab/growth_SM2018_forked/src/libshell/MergePerFaceQuantities.hpp
+ /home/aparnank/mvlab/growth_SM2018_forked/src/libshell/Mesh.hpp
+ /home/aparnank/mvlab/growth_SM2018_forked/src/libshell/Profiler.hpp
+ /home/aparnank/mvlab/growth_SM2018_forked/src/libshell/QuadraticForms.hpp
+ /home/aparnank/mvlab/growth_SM2018_forked/src/libshell/ReadVTK.hpp
+ /home/aparnank/mvlab/growth_SM2018_forked/src/libshell/StretchingOperator_Parametric.cpp
+ /home/aparnank/mvlab/growth_SM2018_forked/src/libshell/StretchingOperator_Parametric.hpp
+ /home/aparnank/mvlab/growth_SM2018_forked/src/libshell/TopologyData.hpp
+ /home/aparnank/mvlab/growth_SM2018_forked/src/libshell/TriangleInfo.hpp
+ /home/aparnank/mvlab/growth_SM2018_forked/src/libshell/Triangulate_TRIANGLE.hpp
+ /home/aparnank/mvlab/growth_SM2018_forked/src/libshell/common.hpp
  /usr/include/eigen3/Eigen/Cholesky
  /usr/include/eigen3/Eigen/Core
  /usr/include/eigen3/Eigen/Dense

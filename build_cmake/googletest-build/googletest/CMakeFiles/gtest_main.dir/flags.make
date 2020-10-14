@@ -6,5 +6,5 @@ CXX_FLAGS =   -fopenmp -Wall -Wcast-align -Wextra -Wformat-nonliteral -Wformat=2
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/aparnank/mvlab/growth_SM2018/src/libshell -isystem /home/aparnank/mvlab/growth_SM2018/build_cmake/LIBIGL-src/include -isystem /usr/include/eigen3 -I/home/aparnank/mvlab/growth_SM2018/external/HLBFGS -I/home/aparnank/mvlab/growth_SM2018/build_cmake/TRIANGLE-src -isystem /home/aparnank/mvlab/growth_SM2018/build_cmake/googletest-src/googletest/include -isystem /home/aparnank/mvlab/growth_SM2018/build_cmake/googletest-src/googletest 
+CXX_INCLUDES = -I/home/aparnank/mvlab/growth_SM2018_forked/src/libshell -isystem /home/aparnank/mvlab/growth_SM2018_forked/build_cmake/LIBIGL-src/include -isystem /usr/include/eigen3 -I/home/aparnank/mvlab/growth_SM2018_forked/external/HLBFGS -I/home/aparnank/mvlab/growth_SM2018_forked/build_cmake/TRIANGLE-src -isystem /home/aparnank/mvlab/growth_SM2018_forked/build_cmake/googletest-src/googletest/include -isystem /home/aparnank/mvlab/growth_SM2018_forked/build_cmake/googletest-src/googletest 
 

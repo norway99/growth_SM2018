@@ -4,21 +4,21 @@ endif()
 
 set(run 0)
 
-if("/home/aparnank/mvlab/growth_SM2018/build_cmake/TRIANGLE-download/TRIANGLE-download-prefix/src/TRIANGLE-download-stamp/TRIANGLE-download-gitinfo.txt" IS_NEWER_THAN "/home/aparnank/mvlab/growth_SM2018/build_cmake/TRIANGLE-download/TRIANGLE-download-prefix/src/TRIANGLE-download-stamp/TRIANGLE-download-gitclone-lastrun.txt")
+if("/home/aparnank/mvlab/growth_SM2018_forked/build_cmake/TRIANGLE-download/TRIANGLE-download-prefix/src/TRIANGLE-download-stamp/TRIANGLE-download-gitinfo.txt" IS_NEWER_THAN "/home/aparnank/mvlab/growth_SM2018_forked/build_cmake/TRIANGLE-download/TRIANGLE-download-prefix/src/TRIANGLE-download-stamp/TRIANGLE-download-gitclone-lastrun.txt")
   set(run 1)
 endif()
 
 if(NOT run)
-  message(STATUS "Avoiding repeated git clone, stamp file is up to date: '/home/aparnank/mvlab/growth_SM2018/build_cmake/TRIANGLE-download/TRIANGLE-download-prefix/src/TRIANGLE-download-stamp/TRIANGLE-download-gitclone-lastrun.txt'")
+  message(STATUS "Avoiding repeated git clone, stamp file is up to date: '/home/aparnank/mvlab/growth_SM2018_forked/build_cmake/TRIANGLE-download/TRIANGLE-download-prefix/src/TRIANGLE-download-stamp/TRIANGLE-download-gitclone-lastrun.txt'")
   return()
 endif()
 
 execute_process(
-  COMMAND ${CMAKE_COMMAND} -E remove_directory "/home/aparnank/mvlab/growth_SM2018/build_cmake/TRIANGLE-src"
+  COMMAND ${CMAKE_COMMAND} -E remove_directory "/home/aparnank/mvlab/growth_SM2018_forked/build_cmake/TRIANGLE-src"
   RESULT_VARIABLE error_code
   )
 if(error_code)
-  message(FATAL_ERROR "Failed to remove directory: '/home/aparnank/mvlab/growth_SM2018/build_cmake/TRIANGLE-src'")
+  message(FATAL_ERROR "Failed to remove directory: '/home/aparnank/mvlab/growth_SM2018_forked/build_cmake/TRIANGLE-src'")
 endif()
 
 set(git_options)
@@ -53,7 +53,7 @@ set(number_of_tries 0)
 while(error_code AND number_of_tries LESS 3)
   execute_process(
     COMMAND "/usr/bin/git" ${git_options} clone ${git_clone_options} --origin "origin" "https://github.com/libigl/triangle" "TRIANGLE-src"
-    WORKING_DIRECTORY "/home/aparnank/mvlab/growth_SM2018/build_cmake"
+    WORKING_DIRECTORY "/home/aparnank/mvlab/growth_SM2018_forked/build_cmake"
     RESULT_VARIABLE error_code
     )
   math(EXPR number_of_tries "${number_of_tries} + 1")
@@ -68,7 +68,7 @@ endif()
 
 execute_process(
   COMMAND "/usr/bin/git" ${git_options} checkout d284c4a843efac043c310f5fa640b17cf7d96170 --
-  WORKING_DIRECTORY "/home/aparnank/mvlab/growth_SM2018/build_cmake/TRIANGLE-src"
+  WORKING_DIRECTORY "/home/aparnank/mvlab/growth_SM2018_forked/build_cmake/TRIANGLE-src"
   RESULT_VARIABLE error_code
   )
 if(error_code)
@@ -77,32 +77,32 @@ endif()
 
 execute_process(
   COMMAND "/usr/bin/git" ${git_options} submodule init 
-  WORKING_DIRECTORY "/home/aparnank/mvlab/growth_SM2018/build_cmake/TRIANGLE-src"
+  WORKING_DIRECTORY "/home/aparnank/mvlab/growth_SM2018_forked/build_cmake/TRIANGLE-src"
   RESULT_VARIABLE error_code
   )
 if(error_code)
-  message(FATAL_ERROR "Failed to init submodules in: '/home/aparnank/mvlab/growth_SM2018/build_cmake/TRIANGLE-src'")
+  message(FATAL_ERROR "Failed to init submodules in: '/home/aparnank/mvlab/growth_SM2018_forked/build_cmake/TRIANGLE-src'")
 endif()
 
 execute_process(
   COMMAND "/usr/bin/git" ${git_options} submodule update --recursive --init 
-  WORKING_DIRECTORY "/home/aparnank/mvlab/growth_SM2018/build_cmake/TRIANGLE-src"
+  WORKING_DIRECTORY "/home/aparnank/mvlab/growth_SM2018_forked/build_cmake/TRIANGLE-src"
   RESULT_VARIABLE error_code
   )
 if(error_code)
-  message(FATAL_ERROR "Failed to update submodules in: '/home/aparnank/mvlab/growth_SM2018/build_cmake/TRIANGLE-src'")
+  message(FATAL_ERROR "Failed to update submodules in: '/home/aparnank/mvlab/growth_SM2018_forked/build_cmake/TRIANGLE-src'")
 endif()
 
 # Complete success, update the script-last-run stamp file:
 #
 execute_process(
   COMMAND ${CMAKE_COMMAND} -E copy
-    "/home/aparnank/mvlab/growth_SM2018/build_cmake/TRIANGLE-download/TRIANGLE-download-prefix/src/TRIANGLE-download-stamp/TRIANGLE-download-gitinfo.txt"
-    "/home/aparnank/mvlab/growth_SM2018/build_cmake/TRIANGLE-download/TRIANGLE-download-prefix/src/TRIANGLE-download-stamp/TRIANGLE-download-gitclone-lastrun.txt"
-  WORKING_DIRECTORY "/home/aparnank/mvlab/growth_SM2018/build_cmake/TRIANGLE-src"
+    "/home/aparnank/mvlab/growth_SM2018_forked/build_cmake/TRIANGLE-download/TRIANGLE-download-prefix/src/TRIANGLE-download-stamp/TRIANGLE-download-gitinfo.txt"
+    "/home/aparnank/mvlab/growth_SM2018_forked/build_cmake/TRIANGLE-download/TRIANGLE-download-prefix/src/TRIANGLE-download-stamp/TRIANGLE-download-gitclone-lastrun.txt"
+  WORKING_DIRECTORY "/home/aparnank/mvlab/growth_SM2018_forked/build_cmake/TRIANGLE-src"
   RESULT_VARIABLE error_code
   )
 if(error_code)
-  message(FATAL_ERROR "Failed to copy script-last-run stamp file: '/home/aparnank/mvlab/growth_SM2018/build_cmake/TRIANGLE-download/TRIANGLE-download-prefix/src/TRIANGLE-download-stamp/TRIANGLE-download-gitclone-lastrun.txt'")
+  message(FATAL_ERROR "Failed to copy script-last-run stamp file: '/home/aparnank/mvlab/growth_SM2018_forked/build_cmake/TRIANGLE-download/TRIANGLE-download-prefix/src/TRIANGLE-download-stamp/TRIANGLE-download-gitclone-lastrun.txt'")
 endif()
 

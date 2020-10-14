@@ -72,7 +72,7 @@ find_package(LIBIGL)
 if(NOT LIBIGL_FOUND)
   download_project(PROJ               LIBIGL
                  GIT_REPOSITORY       https://github.com/libigl/libigl.git
-                 GIT_TAG              master
+                 GIT_TAG              7b4a19d
                  ${UPDATE_DISCONNECTED_IF_AVAILABLE}
   )
   set(LIBIGL_INCLUDE_DIR "${LIBIGL_SOURCE_DIR}/include")

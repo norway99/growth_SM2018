@@ -10,9 +10,12 @@ set(CMAKE_MAKEFILE_DEPENDS
   "CMakeFiles/3.10.2/CMakeSystem.cmake"
   "CMakeLists.txt"
   "TRIANGLE-download-prefix/tmp/TRIANGLE-download-cfgcmd.txt.in"
+  "/usr/share/cmake-3.10/Modules/CMakeDetermineSystem.cmake"
   "/usr/share/cmake-3.10/Modules/CMakeGenericSystem.cmake"
+  "/usr/share/cmake-3.10/Modules/CMakeSystem.cmake.in"
   "/usr/share/cmake-3.10/Modules/CMakeSystemSpecificInformation.cmake"
   "/usr/share/cmake-3.10/Modules/CMakeSystemSpecificInitialize.cmake"
+  "/usr/share/cmake-3.10/Modules/CMakeUnixFindMake.cmake"
   "/usr/share/cmake-3.10/Modules/ExternalProject.cmake"
   "/usr/share/cmake-3.10/Modules/FindGit.cmake"
   "/usr/share/cmake-3.10/Modules/FindPackageHandleStandardArgs.cmake"
@@ -30,6 +33,7 @@ set(CMAKE_MAKEFILE_OUTPUTS
 
 # Byproducts of CMake generate step:
 set(CMAKE_MAKEFILE_PRODUCTS
+  "CMakeFiles/3.10.2/CMakeSystem.cmake"
   "TRIANGLE-download-prefix/src/TRIANGLE-download-stamp/TRIANGLE-download-gitinfo.txt"
   "TRIANGLE-download-prefix/tmp/TRIANGLE-download-cfgcmd.txt"
   "CMakeFiles/CMakeDirectoryInformation.cmake"

@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "/home/aparnank/mvlab/growth_SM2018/build_cmake/TRIANGLE-src/triangle.c" "/home/aparnank/mvlab/growth_SM2018/build_cmake/CMakeFiles/triangle.dir/TRIANGLE-src/triangle.c.o"
+  "/home/aparnank/mvlab/growth_SM2018_forked/build_cmake/TRIANGLE-src/triangle.c" "/home/aparnank/mvlab/growth_SM2018_forked/build_cmake/CMakeFiles/triangle.dir/TRIANGLE-src/triangle.c.o"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 

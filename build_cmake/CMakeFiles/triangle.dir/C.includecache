@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/aparnank/mvlab/growth_SM2018/build_cmake/TRIANGLE-src/triangle.c
+/home/aparnank/mvlab/growth_SM2018_forked/build_cmake/TRIANGLE-src/triangle.c
 stdio.h
 -
 stdlib.h
@@ -22,7 +22,7 @@ float.h
 fpu_control.h
 -
 triangle.h
-/home/aparnank/mvlab/growth_SM2018/build_cmake/TRIANGLE-src/triangle.h
+/home/aparnank/mvlab/growth_SM2018_forked/build_cmake/TRIANGLE-src/triangle.h
 
-/home/aparnank/mvlab/growth_SM2018/build_cmake/TRIANGLE-src/triangle.h
+/home/aparnank/mvlab/growth_SM2018_forked/build_cmake/TRIANGLE-src/triangle.h
 

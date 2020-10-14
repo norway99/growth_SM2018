@@ -5,8 +5,8 @@ project(googletest-download NONE)
 include(ExternalProject)
 ExternalProject_Add(googletest-download
                     GIT_REPOSITORY;https://github.com/google/googletest.git;GIT_TAG;master;UPDATE_DISCONNECTED 1
-                    SOURCE_DIR          "/home/aparnank/mvlab/growth_SM2018/build_cmake/googletest-src"
-                    BINARY_DIR          "/home/aparnank/mvlab/growth_SM2018/build_cmake/googletest-build"
+                    SOURCE_DIR          "/home/aparnank/mvlab/growth_SM2018_forked/build_cmake/googletest-src"
+                    BINARY_DIR          "/home/aparnank/mvlab/growth_SM2018_forked/build_cmake/googletest-build"
                     CONFIGURE_COMMAND   ""
                     BUILD_COMMAND       ""
                     INSTALL_COMMAND     ""

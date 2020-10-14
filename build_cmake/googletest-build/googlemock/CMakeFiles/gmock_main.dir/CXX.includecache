@@ -6,13 +6,13 @@
 
 #IncludeRegexTransform: 
 
-/home/aparnank/mvlab/growth_SM2018/build_cmake/googletest-src/googlemock/src/gmock_main.cc
+/home/aparnank/mvlab/growth_SM2018_forked/build_cmake/googletest-src/googlemock/src/gmock_main.cc
 iostream
 -
 gmock/gmock.h
-/home/aparnank/mvlab/growth_SM2018/build_cmake/googletest-src/googlemock/src/gmock/gmock.h
+/home/aparnank/mvlab/growth_SM2018_forked/build_cmake/googletest-src/googlemock/src/gmock/gmock.h
 gtest/gtest.h
-/home/aparnank/mvlab/growth_SM2018/build_cmake/googletest-src/googlemock/src/gtest/gtest.h
+/home/aparnank/mvlab/growth_SM2018_forked/build_cmake/googletest-src/googlemock/src/gtest/gtest.h
 tchar.h
 -
 
